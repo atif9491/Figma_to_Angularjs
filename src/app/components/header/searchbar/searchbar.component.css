@@ -1,0 +1,103 @@
+/* Class Rectangle */
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Rectangle 1 */
+#rectangle1 {
+  position: absolute;
+  width: 100vw;
+  height: 9rem;
+  left: 0px;
+  top: 0px;
+  background: url(./img/bg.jpg), #D9D9D9;
+}
+
+.logo {
+  position: absolute;
+  left: 35px;
+  top: 12px;
+  width: 67px;
+  height: 67px;
+  background: url(./img/logo.png);
+}
+
+/* Rectangle 2 */
+
+
+.rectangle2 {
+  margin: auto;
+  width: 75%;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 44px;
+  justify-content: space-between;
+}
+
+.searchbar {
+  margin: 0px;
+  width: 80%;
+}
+
+.search {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  border-radius: 45px 0px 0px 45px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  padding-left: 35px;
+}
+
+.mands{
+  width: 20%;
+  height: 45px;
+  justify-content: space-between;
+}
+
+.mandss{
+    width: 50%;
+    height: 45px;
+}
+
+.uni-icon{
+  font-size: 30px;
+}
+
+#miclogo{
+    color: #ff8d06;
+}
+
+#searchlogo{
+    color: #ff8d06;
+}
+
+
+/* Change this background? */
+ .bgchange{
+
+position: absolute;
+width: 306px;
+height: 24px;
+bottom: 0%;
+float: right;
+right: 0%;
+display: block;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+} 
+
+.bgchangeclass{
+  padding: 10px;
+}
